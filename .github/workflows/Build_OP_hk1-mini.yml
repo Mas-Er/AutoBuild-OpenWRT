@@ -1,11 +1,11 @@
-name: OpenWrt_NanoPi_R2S
+name: OpenWrt_HK1-Mini
 on: 
   repository_dispatch:
   workflow_dispatch:
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
